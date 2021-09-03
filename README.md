@@ -1,3 +1,5 @@
+<h2>Install Script for iSpy Agent DVR Web Interfaces</h2>
+<br/><br/>
 install a rasbian lite on a 32GB SD card<br/>
 <br/>
 mount the boot partition of the sd and add an empty file with the name "ssh"<br/>
@@ -22,5 +24,7 @@ make the install.sh executable:<br/>
     <p>chmod +x install.sh</p><br/>
 start the install.sh script with sudo:<br/>
     <p>sudo ./install.sh</p><br/>
+installation takes about 2-3 minutes on a pi4 depending on internet speed
+
 <br/>
 log into Agent DVR via your browser at http://<ip address of pi>:8090<br/>
