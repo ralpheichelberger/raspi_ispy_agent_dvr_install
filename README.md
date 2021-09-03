@@ -15,6 +15,9 @@ scp the install.sh and the ispyagent.service files to the pi and<br/>
 like so: <br/>
     <p>scp install.sh ispyagent.service pi@<ip address of pi>:.</p>
 <br/>
+ssh into the pi:<br/>
+<p>ssh <ip address of pi> -lpi/p>
+<br/>
 make the install.sh executable:<br/>
     <p>chmod +x install.sh</p><br/>
 start the install.sh script with sudo:<br/>
