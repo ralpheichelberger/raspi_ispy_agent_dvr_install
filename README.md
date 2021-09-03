@@ -1,4 +1,4 @@
-<h2>Install Script for iSpy Agent DVR Web Interfaces</h2>
+<h2>Install Script for iSpy Agent DVR Web Interface</h2>
 <br/><br/>
 install a rasbian lite on a 32GB SD card<br/>
 <br/>
