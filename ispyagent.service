@@ -1,0 +1,17 @@
+#Put me in /lib/systemd/system/
+[Unit]
+Description=iSpay Agent Service
+After=network.target
+[Service]
+Environment="DOTNET_ROOT=$HOME/dotnet"
+
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/agentdvr
+ExecStart=/home/pi/dotnet/dotnet Agent.dll
+Restart=on-failure
+RestartSec=5
+StartLimitAction=reboot
+
+[Install]
+WantedBy=multi-user.target
